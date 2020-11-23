@@ -1,0 +1,45 @@
+body{
+	text-align: center;
+	background-color: black;
+	
+}
+
+
+
+.rotate{
+	animation-name: rotate;
+	animation-duration: 1.5s;
+
+}
+
+@keyframes rotate {
+	0% { transform: rotate(180deg);}
+	
+}
+
+.reverseDissolve {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 30%;
+	height: 250px;
+
+	animation-name: reverseDissolve;
+	animation-duration: 3.5s;
+}
+
+.reverseDissolve img {
+	
+}
+
+@keyframes reverseDissolve {
+	0% {opacity: 0%;}
+	100% {opacity: 100%;}
+}
+
+.reverseDissolve button {
+	width: 5em;
+
+}
