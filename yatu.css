@@ -64,7 +64,7 @@ body{
 
 #album{
 	display: flex;
-	margin-left: 90px;
+	margin: 0 auto;
 	height: auto;
 	width: auto;
 
