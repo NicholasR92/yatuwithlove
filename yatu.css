@@ -147,7 +147,7 @@ background-color: black;
 	
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (min-width: 600px){
 	.row{
 		padding-left: 0px;
 		padding-right: 0px;
